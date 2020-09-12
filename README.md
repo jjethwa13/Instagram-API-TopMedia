@@ -20,8 +20,8 @@ pagination that will be downloaded via PAGES
 
 DATA FORMAT
 
-Data.txt >> (hashtag_id) >> Name, 1, 2, 3, ...
-Name >> (hashtag name)
+Data.txt >> (hashtag_id) >> Name, 1, 2, 3, ... \n
+Name >> (hashtag name)\n
 1 >> (Return for 1st page in pagination)
 2 >> (Return for 2nd page in pagination)
 3 >> (Return for 3rd page in pagination)
