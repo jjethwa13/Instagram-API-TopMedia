@@ -265,7 +265,7 @@ PAGES = 2000
 if Initialise:
     state = StateHandler(init=True)
 else:
-    Search = ['FarFetch']
+    Search = ['HelloWorld']
     DataEngine = DataRetriever()
     State = DataEngine.get_state()
     state_config = State.get_config()
