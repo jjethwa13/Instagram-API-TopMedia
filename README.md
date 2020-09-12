@@ -20,18 +20,14 @@ pagination that will be downloaded via PAGES
 
 DATA FORMAT
 
-Data.txt : (hashtag_id) : {
-                    Name : (hashtag_name)
-                    1 : {
-                        data : [post_1, post_2, ...]
-
-                    }
-                    2 : (Pagination 2)
-                    .
-                    .
-                    .
-                }
-                metadata : {}
+Data.txt >> (hashtag_id) >> Name, 1, 2, 3, ...
+Name >> (hashtag name)
+1 >> (Return for 1st page in pagination)
+2 >> (Return for 2nd page in pagination)
+3 >> (Return for 3rd page in pagination)
+.
+.
+.
                 
                 
 FURTHER DETAILS
