@@ -2,6 +2,7 @@
 Automatically gathers data on top media by a hashtag search
 
 DETAILED DESCRIPTION
+
 The system will automatically collect data in paginations of the top media related to a given hashtag. You can specify the number of paginations you would like to collect up to.
 Note the importance of this is because The Official Instagram API sets a 200 requests per hour limit which will disrupt most processes collecting large amounts of data from the
 API. The program will collect data until it reaches an error (usually that the limit has been reached), upon reaching the error it will save the state of the application, wait
@@ -20,13 +21,20 @@ pagination that will be downloaded via PAGES
 
 DATA FORMAT
 
-Data.txt >> (hashtag_id) >> Name, 1, 2, 3, ... \n
-Name >> (hashtag name)\n
+Data.txt >> (hashtag_id) >> Name, 1, 2, 3, ... 
+
+Name >> (hashtag name)
+
 1 >> (Return for 1st page in pagination)
+
 2 >> (Return for 2nd page in pagination)
+
 3 >> (Return for 3rd page in pagination)
+
 .
+
 .
+
 .
                 
                 
